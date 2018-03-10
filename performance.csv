@@ -1,0 +1,13 @@
+timestamp,bagging,num_folds,mk_2way,mk_3way,one_hot,scale_data,scales,model,elapsed_time,mean_auc
+2018-02-17 20:41:37,2,2,True,False,False,False,standard,lgm,4.3836,0.9340
+2018-02-17 20:41:44,2,2,True,False,False,False,standard,logit,2.6520,0.9448
+2018-02-17 20:41:49,2,2,True,False,False,False,standard,rfc,0.2652,0.9426
+2018-02-17 20:42:59,2,2,False,False,True,False,standard,lgm,0.9828,0.9575
+2018-02-17 20:43:00,2,2,False,False,True,False,standard,logit,0.2496,0.9680
+2018-02-17 20:43:01,2,2,False,False,True,False,standard,rfc,0.5928,0.8642
+2018-02-17 21:04:26,2,2,False,False,False,False,standard,lgm,0.4836,0.9758
+2018-02-17 21:04:27,2,2,False,False,False,False,standard,logit,0.2652,0.9513
+2018-02-17 21:04:28,2,2,False,False,False,False,standard,rfc,0.1716,0.9391
+2018-02-21 02:21:02,1,2,False,False,False,False,scale,kerasnn,3.7284,0.5
+2018-02-21 02:21:03,1,2,False,False,False,False,scale,lgm,0.0,0.9758
+2018-02-21 02:21:03,1,2,False,False,False,False,scale,logit,0.1404,0.9497
