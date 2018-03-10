@@ -7,6 +7,8 @@ These parameters are involved from setting the label and id columns as well as s
 
 This Script will generate the Cross validation set and the test set which can be used in the next layer of stacking.
 
+It will also create the Performance csv file which will be used to record all the progress and accuracy of different combinations of techniques.
+
 it is the second layer of pipeline used after the first layer of preprocessing pipeline and before the stacking pipeline.
 
 only be used for the Structured Tabular form of data competitions.
