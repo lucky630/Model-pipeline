@@ -1,0 +1,9 @@
+Anaconda Env
+configparser
+numpy
+sklearn
+xgboost
+catboost
+lightgbm
+rgf
+keras (tensorflow backend)
