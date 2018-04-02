@@ -1,5 +1,4 @@
-##1. not have model parameters optimization.
-##2. not have vowpal wabbit,FM models.
+##1. not included model optimization method
 import numpy as np
 import time
 import datetime
@@ -135,8 +134,7 @@ def train_bagged_model(X,y,model,bagging,n,select):
         y_train, y_cv = np.array(y)[train_index], np.array(y)[test_index]
         print (" train size: %d. test size: %d, cols: %d " % ((X_train.shape[0]) ,(X_cv.shape[0]) ,(X_train.shape[1]) ))
         
-        # if you want to perform feature selection / hyperparameter
-        # optimization, this is where you want to do it
+        # hyperparameter optimization methods here
         
         # train model and make predictions 
         preds=bagged_set(X_train,y_train,model, SEED , bagging, X_cv,select)   
