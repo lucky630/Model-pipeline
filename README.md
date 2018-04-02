@@ -9,6 +9,6 @@ This Script will generate the Cross validation set and the test set which can be
 
 It will also create the Performance csv file which will be used to record all the progress and accuracy of different combinations of techniques.
 
-it is the second layer of pipeline used after the first layer of preprocessing pipeline and before the stacking pipeline.
+it is the second layer of pipeline used after the first layer of preprocessing pipeline and before the stacking pipeline.other two pipelines will be shared soon.
 
-only be used for the Structured Tabular form of data competitions.
+only be used for the Structured Tabular form of data sets.
