@@ -11,4 +11,4 @@ It will also create the Performance csv file which will be used to record all th
 
 it is the second layer of pipeline used after the first layer of preprocessing pipeline and before the stacking pipeline.other two pipelines will be shared soon.
 
-only be used for the Structured Tabular form of data sets.
+- only be used for the Structured Tabular form of data sets.
